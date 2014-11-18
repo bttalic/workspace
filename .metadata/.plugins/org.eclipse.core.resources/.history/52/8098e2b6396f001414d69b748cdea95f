@@ -14,4 +14,3 @@ public static void main(String[] args) {
 	else { System.out.println("Zao mi je vi ste decko");}
 in.close();}
 }
-java java
