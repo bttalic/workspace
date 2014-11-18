@@ -1,8 +1,0 @@
-
-public class Piramida {
-public static void main(String[] args) {
-	double randomBroj = (0+(Math.random())*(50-0+1));
-	    double povrsinaPiramide = (randomBroj * randomBroj) + randomBroj *  Math.sqrt( ( (randomBroj/2) * (randomBroj/2) + randomBroj * randomBroj) * (randomBroj * ( (randomBroj/2) * (randomBroj/2) + randomBroj * randomBroj )) + + randomBroj *  Math.sqrt( ( (randomBroj/2) * (randomBroj/2) + randomBroj * randomBroj) * (randomBroj * ( (randomBroj/2) * (randomBroj/2) + randomBroj * randomBroj ))));
-System.out.println(povrsinaPiramide);
-}
-}

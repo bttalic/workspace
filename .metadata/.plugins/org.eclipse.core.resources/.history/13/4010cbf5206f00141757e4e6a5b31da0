@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+
+public class vecimanji {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Molim vas unesite broj: ");
+		int brojJedan = in.next(); 
+		System.out.println("Molim vas unesite jos jedan broj: ");
+		double brojDva = in.next(); 	
+        double rezultat = brojJedan/brojDva; 
+		
+	if ( rezultat < 1 ) {
+		double rezultatDva = brojDva/brojJedan ;
+		System.out.println("Rezultat" + rezultatDva);
+	}
+	}
+
+}

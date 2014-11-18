@@ -1,0 +1,17 @@
+package lab6;
+
+import java.util.Scanner;
+
+public class Helouser {
+
+	public static void main(String[] args) {
+		
+ Scanner ime = new Scanner(System.in);
+ 	System.out.println("Molimo vas da unesete vase ime.");
+			String imeJedan = in.nextLine() ; 				
+	System.out.println("Pozdrav" + imeJedan + "kako si?");
+System.out.println(" Da li znate da vase ime u Capsu izgleda ovako: ");
+      imeJedanCaps= imeJedan.toUpperCase(locale); 
+	}
+
+}

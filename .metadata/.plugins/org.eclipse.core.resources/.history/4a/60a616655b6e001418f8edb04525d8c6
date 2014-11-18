@@ -1,0 +1,9 @@
+package lab5;
+
+public class paliodrom {
+public static void main(String[] args) {
+	String paliodrom = "Testis";
+	String ispis = paliodrom.substring(0, 6);
+	System.out.println(ispis);
+}
+}

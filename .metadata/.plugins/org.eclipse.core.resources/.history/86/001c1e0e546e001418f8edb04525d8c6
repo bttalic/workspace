@@ -1,0 +1,11 @@
+package lab5;
+
+public class simulationdice {
+public static void main(String[] args) {
+	int dice1 = (int) (Math.random()*6) + 1;
+	int dice2 = (int) (Math.random()*6) + 1;
+System.out.println("Kocka je bacena");
+System.out.println("Kocka JEDAN: " + dice1 );
+System.out.println("Kocka je bacena" + dice2);
+}
+}

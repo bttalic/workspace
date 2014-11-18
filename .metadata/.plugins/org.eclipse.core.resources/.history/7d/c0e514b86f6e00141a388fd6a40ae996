@@ -1,0 +1,21 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class skener {
+public static void main(String[] args) {
+	
+	Scanner in = new Scanner(System.in); 
+System.out.println("Unesite broj:");
+int broj = in.nextInt();
+System.out.println("Unesite drugi broj broj:");
+int brojDva= in.nextInt();
+System.out.println( "zbir =" + broj +brojDva);
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println();
+System.out.println();
+
+}
+}

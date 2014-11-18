@@ -1,0 +1,14 @@
+package lab5;
+
+public class JMBG{
+
+public static void main(String[] args) {
+	
+	
+	String jmbg = "0809982170005" ;
+	String dan = jmbg.substring(0, 1);
+	String mjesec = jmbg.substring(2, 3);
+	String godina = jmbg.substring (4, 7);
+	System.out.println(godina);
+}
+}

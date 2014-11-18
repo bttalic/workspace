@@ -1,0 +1,29 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class djeljivBroj {
+	public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.println("Unesite Broj");
+	int broj = in.nextInt();
+	
+if (broj%2==0)
+{
+	System.out.println("Broj je djeljiv sa 2");
+	}
+
+	else if (broj%3==0)
+	{
+		System.out.println("Broj je djeljiv sa 3");
+	}
+	else if (broj%4==0)	{
+		System.out.println("Broj je djeljiv sa 4");
+	}
+	else if (broj%5==0)
+{
+	System.out.println("Broj je djeljiv sa 5");
+}
+
+
+}}

@@ -1,0 +1,16 @@
+package lab6;
+
+import java.util.Scanner;
+
+public class Helouser {
+
+	public static void main(String[] args) {
+		
+ Scanner ime = new Scanner(System.in);
+ 
+	System.out.println("Molimo vas da unesete vase ime.");
+		String ime1 = in.nextLine(); 
+	System.out.println("Pozdrav" + ime1 + "kako si?");
+	}
+
+}

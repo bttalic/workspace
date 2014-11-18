@@ -1,0 +1,11 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class skener {
+public static void main(String[] args) {
+	
+	Scanner prvaVarijabla = new Scanner(System.in); 
+	Scanner drugaVarijabla = new Scanner(System.in);
+}
+}

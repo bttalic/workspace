@@ -1,0 +1,26 @@
+package lab5;
+
+public class JMBG{
+
+public static void main(String[] args) {
+	
+	
+	String jmbg = "0809982170005" ;
+	String dan = jmbg.substring(0, 1+1);
+	String mjesec = jmbg.substring(2, 3+1);
+	String godina = jmbg.substring (4, 7);
+	String politickaRegija = jmbg.substring (8, 9+1);
+	String jedinstveniBroj= jmbg.substring (10, 12);
+	String kontrola= jmbg.substring (13);
+	System.out.println(dan);
+	System.out.println(mjesec);
+	System.out.println(godina);
+	System.out.println(politickaRegija);
+	System.out.println(jedinstveniBroj);
+	System.out.println(kontrola);
+	
+	
+	
+	
+}
+}

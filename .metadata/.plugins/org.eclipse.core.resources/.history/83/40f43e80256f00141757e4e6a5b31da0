@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class ifelse {
+	Scanner in = new Scanner(System.in);
+	long broj = in.nextLong();
+	if  (broj/100<1)
+		{private void sysout("Broj je manji od 100")}
+	elseif (broj/1000<=1)
+	{private void sysout("Broj je manji od 1000")}
+			
+	else {sysout("Prechera ga!!!);
+		}
+	ifelse
+	
+}
