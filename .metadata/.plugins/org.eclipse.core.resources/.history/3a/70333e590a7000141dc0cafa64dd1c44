@@ -1,0 +1,28 @@
+package lab1911;
+
+import java.util.Scanner;
+
+public class Dvabroja {
+public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.println("Unesite prvi broj");
+	int broj1=in.nextInt();
+	System.out.println("Unesite drugi Broj");
+	int broj2=in.nextInt();
+
+	while ((broj2 != 0) || (broj1 != 0))
+	
+	{
+		System.out.println(broj1+broj2);
+	System.out.println("Unesite prvi broj");
+	broj1 = in.nextInt();
+	System.out.println("Unesite drugi Broj");
+	broj2 = in.nextInt();
+	System.out.println(broj1+broj2);
+	if (broj1+broj2==0)
+	{System.out.println("Upisali ste nule hvala prijatno");
+	}
+			
+	}
+	}
+	}

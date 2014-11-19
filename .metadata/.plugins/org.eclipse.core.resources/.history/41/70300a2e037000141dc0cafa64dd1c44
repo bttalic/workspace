@@ -11,9 +11,6 @@ double stranica3=TextIO.getDouble();
 
 if ((stranica1<stranica2+stranica3) || (stranica2<stranica1+stranica3) || (stranica3<stranica1+stranica2)){
 	System.out.println("Cestitamo vase stranice zadovoljavaju karakteristike trougla.");
-	
-	double povrsinaTrougla = 
 }
-
 }
 }

@@ -851,8 +851,6 @@ public class TextIO {
     
     private static String buffer = null;  // One line read from input.
     private static int pos = 0;           // Position of next char in input line that has not yet been processed.
-
-
     
     private static String readRealString() {   // read chars from input following syntax of real numbers
         skipWhitespace();

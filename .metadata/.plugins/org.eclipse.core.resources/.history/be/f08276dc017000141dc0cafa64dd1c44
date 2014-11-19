@@ -1,0 +1,12 @@
+package lab1911;
+
+public class ponavljanje {
+public static void main(String[] args) {
+	int i=0;
+			
+			while (i<=9){
+				System.out.println("Ja se mrzim ponavljati");
+				i++;
+			}
+}
+}
