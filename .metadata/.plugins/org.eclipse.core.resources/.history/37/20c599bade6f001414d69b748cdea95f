@@ -1,0 +1,43 @@
+package lab1911;
+
+import java.util.Random;
+
+public class Prosjek {
+	public static void main(String[] args) { 
+double suma=0;
+int n =0;
+double unos = TextIO.getlnDouble();
+
+
+	
+	while (unos!=0){
+	suma = suma + unos;
+	n = n+1;
+	unos= TextIO.getDouble();
+	}
+	
+	if (n==0) {
+		System.out.println("Morate unjeti barem jedan broj koji nije 0");
+	} else {
+		System.out.printf("prosjek je: %f", suma/n);
+			}
+	
+	
+	System.out.println("Cestitamo sada ce te  ucestvovati  u jednoj divnoj igri ");
+Random zamisljac = new Random();
+
+	
+	int x = zamisljac.nextInt(6+1);
+	int pogodak;
+	
+	do {
+	pogodak=TextIO.getInt();
+	} while (pogodak !=x);
+	System.out.println("MRAK lafo si pogodio");
+	}}
+
+
+
+		
+
+

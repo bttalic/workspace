@@ -1,0 +1,15 @@
+package lab1911;
+
+public class KalkulatorPlocica {
+public static void main(String[] args) {
+	System.out.println("unesite Sirinu cm keramicke kocke");
+	int kockaKeramicka = TextIO.getInt();
+	System.out.println("Unesite sirinu bazena u metrima");
+	int povrsinaBazena = TextIO.getInt();
+    povrsinaBazena = povrsinaBazena/100;
+    
+    int brojPlocica= povrsinaBazena/kockaKeramicka;
+    System.out.println("Broj plocica" + brojPlocica);
+	
+}
+}

@@ -1,0 +1,22 @@
+package lab1911;
+
+import java.util.Scanner;
+
+public class alggoritam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner in = new Scanner(System.in);
+		System.out.println("Unesite Broj 1");
+int a = in.nextInt();
+System.out.println("Unesite Broj 2");
+int b = in.nextInt();
+
+
+if(a>b){
+	System.out.println("A je vece od B");
+	} 
+else System.out.println("B je ipak vece" + b);
+	}
+
+}

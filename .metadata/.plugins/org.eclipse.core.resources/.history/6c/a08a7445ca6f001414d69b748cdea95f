@@ -1,0 +1,16 @@
+package lab1911;
+
+public class alggoritam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a= 10;
+int b= 23;
+
+if(a>b){
+	System.out.println("A je vece od B");
+	} 
+else System.out.println("B je ipak vece");
+	}
+
+}

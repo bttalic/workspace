@@ -1,0 +1,21 @@
+public class MojTextIO {
+	public static void main(String[] args) {
+		int number = 5;
+		System.out.println("This is umber  " + number);
+		System.out.println("| 1 | 2 | 3 |");
+		System.out.println("| 10 | 20 | 30 |");
+		System.out.printf("| %d | %d | %d |\n", 1, 2, 3);
+		int br1 = 1, br2 = 6, br3 = 10, br4 = 16, br5 = 21;
+		int br6 = 26, br7 = 30, br8 = 35, br9 = 101, br10 = 201;
+
+		System.out.printf("| %5d | %5d | %5d | %5d | %5d\n"
+				+ "| %5d | %5d | %5d | %5d | %5d |", br1, br2, br3, br4, br5, br6,
+				br7, br8, br9, br10);
+System.out.print("Unesi double broj");
+double broj = TextIO.getDouble();
+System.out.printf("broj je %f \n",broj );
+
+	}
+
+	
+}

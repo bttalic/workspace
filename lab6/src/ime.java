@@ -12,6 +12,4 @@ public static void main(String[] args) {
 		System.out.println("Cestitamo vi ste curica");
 		}
 	else { System.out.println("Zao mi je vi ste decko");}
-in.close();}
-}
-java java
+}}
