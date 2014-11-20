@@ -1,0 +1,18 @@
+package lab2011;
+
+import java.util.Scanner;
+
+public class Ispis {
+ public static void main(String[] args) {
+	int end = 10;
+	int counter = 0;
+	System.out.println("ispis brojeva");
+	
+for (counter =0 ; counter <= end; counter++){
+	int zbir = counter + counter;
+		System.out.printf("%d ", counter);
+}
+ }
+
+}
+
