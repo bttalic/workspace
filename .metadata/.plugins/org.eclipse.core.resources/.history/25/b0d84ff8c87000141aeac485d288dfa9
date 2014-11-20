@@ -18,7 +18,7 @@ public static void main(String[] args) {
         	  {rezultat=true;
         	  }
         	
-        	if (rezultat) { System.out.println("test" + i );}
+        	if (rezultat==false) { System.out.println("test" + i );}
         	
 	
 	}

@@ -12,13 +12,13 @@ public static void main(String[] args) {
 	boolean rezultat=true;
 	 for (i=2;i<=broj/2; i++){
         	if (broj%i==0) 
-        	  {rezultat=false;
+        	  {rezultat=true;
         	   }
         	if (broj%i!=0) 
-        	  {rezultat=true;
+        	  {rezultat=false;
         	  }
         	
-        	if (rezultat) { System.out.println("test" + i );}
+        	if (rezultat==false) { System.out.println("test" + i );;}
         	
 	
 	}

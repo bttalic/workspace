@@ -10,15 +10,15 @@ public static void main(String[] args) {
 	int i=0;
 	
 	boolean rezultat=true;
-	 for (i=2;i<=broj/2; i++){
-        	if (broj%i==0) 
-        	  {rezultat=false;
-        	   }
+	 for (i=2;i==broj/2; i++){
         	if (broj%i!=0) 
         	  {rezultat=true;
+        	   }
+        	if (broj%i==0) 
+        	  {rezultat=false;
         	  }
         	
-        	if (rezultat) { System.out.println("test" + i );}
+        	if (rezultat==true) {System.out.printf("ovo je prime broj", i );}
         	
 	
 	}
