@@ -3,3 +3,6 @@
 2014-11-19 11:39:06,921 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.WhileStatement as parent of completion location.
 2014-11-20 15:08:34,451 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.IfStatement as parent of completion location.
 2014-11-20 19:03:21,643 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.ForStatement as parent of completion location.
+2014-11-21 15:28:09,775 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.IfStatement as parent of completion location.
+2014-11-26 10:09:43,686 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.ArrayReference as parent of completion location.
+2014-11-26 14:03:35,449 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.ForStatement as parent of completion location.

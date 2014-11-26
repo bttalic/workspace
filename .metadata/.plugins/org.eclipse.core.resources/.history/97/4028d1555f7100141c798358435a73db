@@ -1,0 +1,20 @@
+package lab2111;
+
+import java.util.Scanner;
+
+public class Ispisime {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int cijeli = 50;
+		int i = 0;
+		int rezultat = 0;
+		int rezultat2=1 ;
+		
+		for (i = 0; i <= cijeli; i++) {
+			rezultat2=rezultat+i;
+		}
+		System.out.println(rezultat2);
+	}
+}

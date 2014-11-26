@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class pravugaonik {
+
+	Scanner in = new Scanner(System.in);
+
+	public static String pripremiPravougaonik(int visina, int sirina){
+			String str="";
+   str=pripremiPrviZadnji(sirina)+ "\n";	
+         for (int i= ; i< ; i++) 
+{
+	str += pripremiSrednji(sirina) + "\n";
+	}
+	
+str += pripremiPrviZadnji (sirina);
+	
+return str;
+
+}
+
+    	private static String pripremiPrviZadnji(int sirina) {
+		String str = "";
+		str = pripremiProizvoljanRed(sirina, "+", "" - "");
+		return;
+	}
+
+	private static String pripremiSrednji(int sirina) {
+     String str = ""
+    str=pripremiProzivoljan red (sirina,"\",  "");
+return ;
+}
+}

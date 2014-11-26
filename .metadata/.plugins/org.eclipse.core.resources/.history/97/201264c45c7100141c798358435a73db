@@ -1,0 +1,17 @@
+package lab2111;
+
+import java.util.Scanner;
+
+public class Ispisime {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner (System.in);
+		System.out.println("Unesite prvi broj");
+		int alfa=in.nextInt();
+		System.out.println("Unesite drugoi broj");
+		int beta=in.nextInt();
+		if ((alfa>5)||(alfa>5)){
+			System.out.println("Zao mi je program radi samo za brojeve manje od 5");
+		}
+		else {System.out.println("Rezultat je"+ alfa+beta );}
+	}}

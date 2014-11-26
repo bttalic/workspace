@@ -1,0 +1,26 @@
+package lab2111;
+
+import java.util.Scanner;
+
+public class Ispisime {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int cijeli;
+        int rezultatNovi = 0; 
+		do {
+			
+			System.out.println("Unesite broj od 1-50");
+			cijeli = in.nextInt();
+		int i;
+
+		for (i = 1; i <= cijeli; i++) {
+			rezultatNovi = rezultatNovi + i;
+		}
+
+		System.out.printf("Suma brojeva izmedju 1-50 je: %d", rezultatNovi);
+		System.out.println("Unesite broj od 1-50")
+		}while (cijeli<=50);
+		
+		System.out.println("Zao mi je unjeli ste broj veci od 50 program se zavrsava");}
+}

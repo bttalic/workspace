@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;rezultat&apos; in &apos;lab2111.Ispisime.main(...)&apos; to &apos;rezultatNovi&apos;&#x0A;- Original project: &apos;lab2111&apos;&#x0A;- Original element: &apos;lab2111.Ispisime.main(String[]).rezultat&apos;&#x0A;- Renamed element: &apos;rezultat&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;rezultat&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;lab2111{Ispisime.java[Ispisime~main~\[QString;@rezultat!185!201!189!196!I!0!false" name="rezultatNovi" references="true" stamp="1416561719708" version="1.0"/>
+</session>

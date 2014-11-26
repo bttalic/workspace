@@ -1,0 +1,32 @@
+package lab2111;
+
+import java.util.Scanner;
+
+public class ParniNeParni {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+	 int uneseniBroj=in.nextInt();
+	 int i=0;
+	 int j=0;
+	 int mjeracParni;
+	 int mjeracNeparni;
+	 
+	 
+	 for (i=0;i<uneseniBroj;i++){
+	   do  {i++
+	    	System.out.println("Parni broj: " +i );
+	   } while (j%2==0);
+	    
+	  }
+	 
+	 for (j=0;j<uneseniBroj;j++){
+		    if	 (i%2!=0) {
+		    	System.out.println("neparni broj: " );
+	 
+		 
+	}
+
+}
+
+}}
