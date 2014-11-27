@@ -1,0 +1,58 @@
+public class PravoDugZadatak {
+
+	public static int[][] unosi() {
+		System.out.println("Unesite visinu");
+		int visina = TextIO.getInt();
+		System.out.println("Unesite duzinu");
+		int duzina = TextIO.getInt();
+		
+		int[][] matrica = new int[visina][duzina];
+		return matrica;
+		
+	}
+
+	public static void print(int[][] matrica) {
+
+		for (int i = 0; i < matrica.length; i++) {
+			for (int j = 0; j < matrica[i].length; j++) {
+				System.out.print(matrica[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
+
+	public static void ispis1DNiza(int[] matrica) {
+
+		for (int i = 0; i < matrica.length; i++) {
+			System.out.print(matrica[i] + " ");
+	 	}
+		System.out.println();
+  	}
+
+	public static int[][] postaviVrijednost(int[][] matrica) {
+		int koordinata1, koordinata2;
+		do{
+		System.out.println("Unesite koordinatu 1");
+		koordinata1 = TextIO.getInt();
+	
+		System.out.println("Unesite koordinatu 2");
+		koordinata2 = TextIO.getInt();
+		if (((0>=koordinata1)||(koordinata1>matrica.length)) || ((0>=koordinata2)||(koordinata2>matrica.length))){
+			System.out.println("Koordinate nisu u zadanim parametrima");
+		}}
+		while(((0 > koordinata1)||(koordinata1>=matrica.length-1)) || ((0>koordinata2)||(koordinata2>=matrica[koordinata1].length-1)));
+
+		System.out.println("Unesite  novu vrijednost koordinate na toj poziciji");
+		matrica[koordinata1][koordinata2] = TextIO.getInt();
+
+		return matrica;
+	}
+
+	public static void main(String[] args) {
+		int[][] matrica = unosi();
+		print(matrica);
+		ispis1DNiza(matrica[0]);
+		matrica = postaviVrijednost(matrica);
+		print(matrica);
+	}
+}

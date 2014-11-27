@@ -1,5 +1,7 @@
 package lab26112014;
 
+import TextIO;
+
 public class Prvi {
 
 			public static int[] unosNiz(int burek) {
