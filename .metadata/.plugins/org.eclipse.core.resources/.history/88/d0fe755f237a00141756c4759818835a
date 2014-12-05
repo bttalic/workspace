@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+
+public class Prostiargs {
+
+	public static void main(String[] args) {
+		int brojac=0;
+		int unos=0;
+		int vrijednost = Integer.parseInt(args[0]);
+       System.out.println(vrijednost);
+		do { 
+    	for (int i=1;i< vrijednost-1;i++){
+    		
+    		if (vrijednost%i==0){
+    			brojac++;
+    			if (brojac>0);{
+    				System.out.println("Vas broj nije prime");;
+    			}
+    		}else System.out.println(" Vas broj je prime");
+    	
+   	Scanner in = new Scanner (System.in);
+    	System.out.println("Molim vas unesite novi broj");
+        vrijednost=in.nextInt();} 
+   //try{  catch(ExceptionInInitializerError e);
+    //	}
+    	
+    	
+    
+    } while (vrijednost!=0);
+    	
+    	
+	}
+
+}

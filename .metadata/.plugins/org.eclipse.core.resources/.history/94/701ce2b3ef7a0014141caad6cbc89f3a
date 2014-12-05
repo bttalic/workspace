@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class Zadatak {
+	
+	
+	public static int[] unosNiza (int niz){
+		Scanner in= new Scanner(System.in);
+		int[] spremanNiz = new int[niz];
+	for(int i = 0; i<spremanNiz.length;i++){
+		System.out.println("Unesite varijablu");
+		spremanNiz[i]+= in.nextInt();
+	}
+		
+	return spremanNiz;}
+	
+	
+public static void main(String[] args) {
+	
+		Scanner in= new Scanner(System.in);
+		System.out.println("Unesite duzinu niza");
+		
+		int duzinaNiuza=in.nextInt();
+		int[] ispisNiz = unosNiza(duzinaNiuza);
+		System.out.println(ispisNiz.length);
+		for(int i = 0; i<ispisNiz.length;i++){
+			System.out.println(ispisNiz[i]);
+		}
+}
+}

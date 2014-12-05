@@ -1,6 +1,7 @@
 public class PravoDugZadatak {
-// Korekcija TREBA da se uradi na nizu jer  trebaju se prosljediti dvije stavke
-	
+	// Korekcija TREBA da se uradi na nizu jer trebaju se prosljediti dvije
+	// stavke
+
 	public static int[][] unosi() {
 		System.out.println("Unesite visinu");
 		int visina = TextIO.getInt();
@@ -80,21 +81,66 @@ public class PravoDugZadatak {
 	public static void main(String[] args) {
 		int[][] matrica = unosi();
 		int sumaKolone = 0;
-		 print(matrica);
-		ispis1DNiza(matrica[0]);
-		matrica = postaviVrijednost(matrica);
 		print(matrica);
+		ispis1DNiza(matrica[0]);
 		matrica = postaviVrijednost(matrica);
 		print(matrica);
 		sumaKolone = sumaKolone(matrica);
 		System.out.println("Suma kolone : " + sumaKolone);
-		
-		
+		boolean istiRed = sviIstiRed(matrica[0]);
+		// sviIstiKolona(matrica[0]);
+		// sviIstiDijagonala(matrica);
+		// sviIStiKontraDijagonala(matrica[0]);
+		if (istiRed = true) {
+			System.out.println("Sve je isti red");
+		}
+
 		for (int i = 0; i < matrica.length; i++) {
 			int suma = sumaReda(matrica[i]);
 			System.out.println("Suma reda " + (i + 1) + " je : " + suma);
 
 		}
 
+	}
+
+	// private static boolean sviIstiRed(int[] is) {
+	// TODO Auto-generated method stub
+	// return false;
+	// }
+
+	// private static boolean sviIStiKontraDijagonala(int[] is) {
+
+	// }
+
+	// private static void sviIstiDijagonala(int[][] matrica) {
+	// TODO Auto-generated method stub
+
+	// }
+
+	 private static boolean sviIstiKolona(int[][] matrica) {
+				int kolona=0;
+				for (int i = 1; i < matrica.length; i++) {
+					if (matrica[i-1][kolona]!=matrica[i][kolona]) {
+						return  false;
+					} 
+				
+				return true;
+			}
+
+	 }
+
+	private static boolean sviIstiRed(int[] matrica) {
+
+		int izvorni = matrica[0];
+		boolean isti = true;
+		for (int i = 1; i < matrica.length; i++) {
+			if (izvorni == matrica[i]) {
+				isti = true;
+			} else {
+				isti = false;
+				break;
+			}
+		}
+		return isti;
 	}
 }

@@ -1,0 +1,28 @@
+
+	public class textsabiranje {
+	public static void main(String[] args) {
+
+		TextIO.readUserSelectedFile();
+
+  String broj1= TextIO.getlnWord();	
+  int brojSpreman= Integer.parseInt(broj1);
+  String broj2= TextIO.getlnWord();	
+  int brojSpreman2= Integer.parseInt(broj2);
+ String operacija = TextIO.getlnWord();	
+ 
+ 
+	if (operacija.equals("+"))
+		{  System.out.println(brojSpreman + brojSpreman2);  }
+	if (operacija.equals("-"))
+	{    }
+	if (operacija.equals("*"))
+	{    }
+	if (operacija.equals("/"))
+	{    }
+	
+	
+	}
+}
+
+	
+

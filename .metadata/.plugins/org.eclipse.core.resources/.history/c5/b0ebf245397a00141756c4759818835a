@@ -1,0 +1,28 @@
+
+	public class textsabiranje {
+	public static void main(String[] args) {
+
+		TextIO.writeUserSelectedFile();
+   System.out.println("Unesite vase ime: ");
+   String ime = TextIO.getln();
+   
+   System.out.println("Unesite vase godine: ");  
+   int godine = TextIO.getlnInt();
+   
+   System.out.println("Unesite  vasu lokaciju: "); 
+   String lokacija = TextIO.getln();
+   
+   System.out.println("Unesite neki broj"); 
+   int nekiBroj = TextIO.getlnInt();
+   
+   System.out.println("Hvala spasili smo navedene informacije");
+ 
+  
+  TextIO.putf("%s","%s","%s","%s", ime, godine, lokacija, nekiBroj);
+
+
+
+}
+}
+	
+

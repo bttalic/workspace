@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Cezarova {
+
+	public static void main(String[] args) {
+		
+		String abeceda = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		abeceda.toLowerCase();
+		abeceda.toCharArray();
+		String cezarova= "XYZABCDEFGHIJKLMNOPQRSTUVW";
+		abeceda.toLowerCase();
+		abeceda.toCharArray();
+		
+		Scanner in = new Scanner (System.in);
+		String recenica="bitcamp";
+		recenica.toCharArray();
+		String finalni="";
+		
+	
+		for(int i=0 ;i<recenica.length()-1 ;i++){
+			for(int j=0 ;j<abeceda.length()-1 ;j++){
+			 if (recenica.indexOf(i)==abeceda.indexOf(j)){
+				finalni+=cezarova.charAt(j);
+			 }
+			
+			//recenica.indexOf(i) = 
+			
+			
+			//for (int j=3 ;j<abeceda.length()-1 ;j++){
+			
+			
+			
+			}
+		}System.out.println(finalni);
+	}
+}

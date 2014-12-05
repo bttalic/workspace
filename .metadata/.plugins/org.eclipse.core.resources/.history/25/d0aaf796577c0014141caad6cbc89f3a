@@ -1,0 +1,34 @@
+package lab03122014;
+
+import java.util.Scanner;
+
+public class Minesweeper {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		System.out.println("Unesite Duzinu");
+		int duzina=in.nextInt();
+		System.out.println("Unesite Sirinu");
+		int sirina=in.nextInt();
+		int niz[][] = napraviNiz(duzina, sirina);
+		ispis(niz);
+	}
+	Scanner in=new Scanner(System.in);
+	
+	public static int[][]  napraviNiz(int duzina, int sirina){
+		int[][] gotovNiz=new int [duzina][sirina];
+	return gotovNiz;
+}
+	public static void ispis(int ulazNiz[][]){
+		for (int i=0;i<ulazNiz.length;i++){   
+			for (int j=0;j<ulazNiz.length;j++){
+				System.out.printf("%2d",ulazNiz[i][j]);
+				
+			}
+			
+		}
+	}
+
+
+
+}
