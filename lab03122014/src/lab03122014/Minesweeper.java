@@ -12,12 +12,13 @@ public class Minesweeper {
 		int duzina = in.nextInt();
 		System.out.println("Unesite Sirinu");
 		int sirina = in.nextInt();
+		
+		
 		int niz[][] = napraviNiz(duzina, sirina);
 		int brojMina = (int) ((duzina * sirina) * 0.30);
 		rasporediMine(niz, brojMina);
 		ispis(niz);
-     
-		int[][] praznaTabla = new int[duzina][sirina];
+       	int[][] praznaTabla = new int[duzina][sirina];
 		for (int i = 0; i < praznaTabla.length; i++) {
 			for (int j = 0; j < praznaTabla.length; j++) {
 				praznaTabla[i][j] += -3;
@@ -32,9 +33,10 @@ public class Minesweeper {
 				System.out.println("Unesite Koordinatu y");
 				int Y = (in.nextInt())-1;
 				praznaTabla[X][Y] = niz[X][Y];
-			
-				if (niz[X][Y] == -1) {
+			 	if (niz[X][Y] == -1) {
 					System.out.println("Zao mi je izgubili ste");
+					System.out.println("");
+					ispis(praznaTabla);
 					break;
 				}
 
