@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;defaultVal&apos; in &apos;test.ArrayUtil.getArray(...)&apos; to &apos;defaultValue&apos;&#x0A;- Original project: &apos;test&apos;&#x0A;- Original element: &apos;test.ArrayUtil.getArray(int, int).defaultVal&apos;&#x0A;- Renamed element: &apos;defaultVal&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;defaultVal&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;test{ArrayUtil.java[ArrayUtil~getArray~I~I@defaultVal!946!959!950!959!I!0!true" name="defaultValue" references="true" stamp="1418044511830" version="1.0"/>
+</session>

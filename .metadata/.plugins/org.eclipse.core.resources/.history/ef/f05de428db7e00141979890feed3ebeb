@@ -1,0 +1,10 @@
+package ArrayUtilTest;
+
+import test.ArrayUtil;
+
+public class TestnaKlasa {
+public static void main(String[] args) {
+	int broj=10;
+	ArrayUtil.getUserArray(broj);
+}
+}

@@ -1,0 +1,15 @@
+package ArrayUtilTest;
+
+import test.ArrayUtil;
+
+public class TestnaKlasa {
+public static void main(String[] args) {
+	int broj=10;
+	int[] popunjenUserNiz=ArrayUtil.getUserArray(broj);
+	ArrayUtil.printArray(popunjenUserNiz);
+int[] popunjenNiz=ArrayUtil.getArray(broj, broj);
+  ArrayUtil.printArray(popunjenNiz);
+  int [] kopiranNiz =ArrayUtil.copyArray(popunjenUserNiz, popunjenNiz);
+  ArrayUtil.printArray(kopiranNiz);
+}
+}
