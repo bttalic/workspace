@@ -1,14 +1,6 @@
 INDEX VERSION 1.127+/Users/gorjankalauzovic/Documents/workspace/.metadata/.plugins/org.eclipse.jdt.core
-3237127138.index
-4095818795.index
-803590544.index
-3247630238.index
-2519709076.index
-3685414275.index
-3187653908.index
-710978621.index
-2141148718.index
-3241200085.index
+2634637576.index
+386627579.index
+3758414790.index
 2089348824.index
-3717609347.index
-2350360457.index
+3547191831.index

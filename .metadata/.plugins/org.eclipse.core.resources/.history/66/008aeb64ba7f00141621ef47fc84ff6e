@@ -1,0 +1,24 @@
+package ArrayUtilTest;
+
+import test.ArrayUtil;
+
+public class TestnaKlasa {
+public static void main(String[] args) {
+	int broj=5;
+    int broj2=8;
+    
+    
+	int[] popunjenUserNiz=ArrayUtil.getUserArray(broj2);
+	int rezultat=ArrayUtil.linearSearch(popunjenUserNiz, broj);
+	System.out.println(rezultat);
+	
+	
+	
+ // int[] popunjenNiz=ArrayUtil.getArray(broj, broj);
+  
+// ArrayUtil.copyArray(popunjenUserNiz, popunjenNiz);
+ //int[]kopiranNiz=ArrayUtil.copyArrayAddapt(popunjenUserNiz,popunjenNiz);
+ // ArrayUtil.printArray(kopiranNiz);
+//  ArrayUtil.printArray(ArrayUtil.pomakniDesno(kopiranNiz));
+}
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+
+public class Korisnik {
+public static void main(String[] args) {
+	User korisnik=new User();
+	Scanner in= new Scanner (System.in);
+	System.out.println("Unesite ime: ");		
+	korisnik.firstName=in.next();
+	
+	System.out.println("Unesite prezime: ");
+	korisnik.lastName=in.next();
+	
+	System.out.println("Unesite godine: ");
+    korisnik.age=in.nextInt();
+    
+    System.out.println(korisnik.firstName+" "+korisnik.lastName +" "+ korisnik.age);
+}
+	
+}

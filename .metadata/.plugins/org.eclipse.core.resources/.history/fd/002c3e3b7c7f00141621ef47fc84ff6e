@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class Posta {
+public static void main(String[] args) {
+	Scanner in = new Scanner (System.in);
+	System.out.println("Unesite visinu paketa");
+	int visinaPaketa=in.nextInt();
+	System.out.println("Unesite duzinu paketa");
+	int duzinaPaketa=in.nextInt();
+	System.out.println("Unesite sirinu paketa");
+	int sirinaPaketa=in.nextInt();
+	System.out.println("Unesite tezinu paketa");
+	int tezinaPaketa=in.nextInt();
+	
+   int volumetrijskaTezina= ( visinaPaketa*sirinaPaketa*duzinaPaketa)/5000;
+   if(volumetrijskaTezina>tezinaPaketa){
+	   tezinaPaketa=volumetrijskaTezina;
+   }
+   int rezultat=tezinaPaketa*3;
+   System.out.println("Cijena paketa je" +rezultat);
+}
+}
