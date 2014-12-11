@@ -1,0 +1,42 @@
+
+public class Animal {
+	
+private String name;
+private String type;
+private int numLegs;
+
+public Animal(){
+			this.name="Nepoznato";
+		    this.type="Nepoznato";
+		    this.numLegs=0;
+	}
+
+
+public Animal(String newName, String newType, int newNumLeg ){
+		if (newName.equals("konj")||newName.equals("pas")||newName.equals("macka")||
+				newName.equals("ptica")||newName.equals("riba"))  {
+					this.name=newName;}
+		else{  throw new IllegalArgumentException("Zao mi je ne prihvatamo tu ziovtinju");
+		 }				
+			this.type=newType;
+			if(this.name.equals("ptica") ){ if (newNumLeg>2){
+				System.out.println("Zao mi je ptica moze imati MAX 2 noge:) ");
+			}
+				
+			}
+			this.numLegs=newNumLeg;
+			
+	}
+
+
+
+public String toString() {
+			String povratString = "";
+			povratString = "Name: "+ name + "\nType: " + type + "\nNumber of legs: " + numLegs;
+			return povratString;
+	}
+
+
+
+
+}

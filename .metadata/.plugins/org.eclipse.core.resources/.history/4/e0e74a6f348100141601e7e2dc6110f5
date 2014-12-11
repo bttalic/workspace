@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+
+public class Animal {
+	
+private String name;
+private String type;
+private int numLegs;
+
+public Animal(){
+			this.name="Nepoznato";
+		    this.type="Nepoznato";
+		    this.numLegs=0;
+	}
+
+
+public Animal(String newName, String newType, int newNumLeg ){
+		if (newName.equals("konj")||newName.equals("pas")||newName.equals("macka")||
+				newName.equals("ptica")||newName.equals("riba"))  {
+					this.name=newName;}
+		else{  throw new IllegalArgumentException("Zao mi je ne prihvatamo tu ziovtinju");
+		 }				
+			this.type=newType;
+			if(this.name.equals("ptica") ){ if (newNumLeg>2){
+				 throw new IllegalArgumentException("Zao mi je moze biti max broj nogu 2");
+			}
+			
+				
+			}
+			this.numLegs=newNumLeg;
+			
+	}
+
+
+
+public String toString() {
+			String povratString = "";
+			povratString = "Name: "+ name + "\nType: " + type + "\nNumber of legs: " + numLegs;
+			return povratString;
+	}
+
+
+public Animal(String newName, String newType){
+	 this.name=newName;
+	 this.type=newType;
+	 Scanner in = new Scanner (System.in);
+	 System.out.println("Unesite broj nogu zivotinje: ");
+	 this.numLegs=in.nextInt();
+}
+
+
+
+}

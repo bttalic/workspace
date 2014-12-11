@@ -28,9 +28,10 @@ public class Datum {
 	 * @param postaviGodinu
 	 */
 	public Datum(int Dan, int Mjesec, int Godina) {
-		this.dan = Dan;
-		this.mjesec = Mjesec;
-		this.godina = Godina;
+		this.setDan(Dan);
+		this.setMjesec(Mjesec);
+		this.setGodina(Godina);
+	
 	}
 
 	/**
@@ -94,7 +95,7 @@ public class Datum {
 	 * @param mjesec
 	 *            se modifikuje sa varijablom noviMjesec.
 	 */
-	public void Mjesec(int mjesec) {
+	public void setMjesec(int mjesec) {
 		if (mjesec < 1 || mjesec > 12) {
 			throw new IllegalArgumentException(
 					"Mjesec nije u validnom intervalu birajte izmedju 1-12");
@@ -124,15 +125,15 @@ public class Datum {
 		this.mjesec = other.mjesec;
 		this.godina = other.godina;
 	}
-/**
- * Funkcija poredi dva  datuma i vraca stavke
- * -1 ako je prvi datum manji od drugog
- * 0 ako su datumi jednaki
- * +1 ako je prvi datum veci od drugog
- * @param datumDrugi
- * 
- * @return
- */
+
+	/**
+	 * Funkcija poredi dva datuma i vraca stavke -1 ako je prvi datum manji od
+	 * drugog 0 ako su datumi jednaki +1 ako je prvi datum veci od drugog
+	 * 
+	 * @param datumDrugi
+	 * 
+	 * @return
+	 */
 	public int compare(Datum datumDrugi) {
 		int rezultat = 0;
 		if (this.godina == datumDrugi.godina) {

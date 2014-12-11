@@ -1,0 +1,7 @@
+
+public class AnimalTest {
+public static void main(String[] args) {
+	Animal theAnimal = new Animal("ptica", "Veliki", 4);
+	
+	System.out.println(theAnimal.toString());
+}}

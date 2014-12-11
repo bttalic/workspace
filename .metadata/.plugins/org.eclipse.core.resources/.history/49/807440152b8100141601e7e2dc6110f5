@@ -1,0 +1,6 @@
+
+public class AnimalTest {
+public static void main(String[] args) {
+	Animal on = new Animal();
+	System.out.println(an);
+}}

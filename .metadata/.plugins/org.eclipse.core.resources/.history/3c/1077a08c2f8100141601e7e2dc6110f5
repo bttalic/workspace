@@ -1,0 +1,31 @@
+
+public class Animal {
+	
+private String name;
+private String type;
+private int numLegs;
+
+public Animal(){
+			this.name="Nepoznato";
+		    this.type="Nepoznato";
+		    this.numLegs=0;
+	}
+
+
+public Animal(String newName, String newType, int newNumLeg ){
+			this.name=newName;
+			this.type=newType;
+			this.numLegs=newNumLeg;
+	}
+
+
+public String toString() {
+			String povratString = "";
+			povratString = "Name: " + "\nType: " + type + "\nNumber of legs: " + numLegs;
+			return povratString;
+	}
+
+
+
+
+}
