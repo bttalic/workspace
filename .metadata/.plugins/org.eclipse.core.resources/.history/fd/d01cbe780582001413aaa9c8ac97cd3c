@@ -1,0 +1,62 @@
+
+public class Temperatura {
+    
+	private String oznaka;
+	private String toBeOznaka;
+	private int temperatura;
+	private int toBeTemperatura;
+	
+	
+	public  Temperatura(String oznaka, int temperatura, String toBeOznaka){
+		if (oznaka.toLowerCase().toString().equals("c")||oznaka.toLowerCase().toString().equals("k")
+				||oznaka.toLowerCase().toString().equals("f")){
+			this.oznaka=oznaka.toLowerCase();
+			this.temperatura=temperatura;
+			this.toBeOznaka=toBeOznaka.toLowerCase();
+			
+		}
+	}
+	
+public String getOznaka() {
+		return oznaka;
+	}
+
+	public void setOznaka(String oznaka) {
+		this.oznaka = oznaka;
+	}
+
+	public String getToBeOznaka() {
+		return toBeOznaka;
+	}
+
+	public void setToBeOznaka(String toBeOznaka) {
+		this.toBeOznaka = toBeOznaka;
+	}
+
+	public int getTemperatura() {
+		return temperatura;
+	}
+
+	public void setTemperatura(int temperatura) {
+		this.temperatura = temperatura;
+	}
+
+	public int getToBeTemperatura() {
+		return toBeTemperatura;
+	}
+
+	public void setToBeTemperatura(int toBeTemperatura) {
+		this.toBeTemperatura = toBeTemperatura;
+	}
+
+
+	public int konverzijaC(int temp, String pocetna, String krajnja){
+		int vrijednost=0;
+		if 
+		
+		return vrijednost;
+	}
+	
+}
+	
+

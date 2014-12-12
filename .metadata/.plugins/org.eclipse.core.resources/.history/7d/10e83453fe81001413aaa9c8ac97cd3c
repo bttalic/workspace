@@ -1,0 +1,13 @@
+
+public class Temperatura {
+    
+	private String kelvin;
+	private String celzius;
+	private String farenheit;
+	private int temperatura;
+	
+	public static  (  )
+	
+	
+	
+}

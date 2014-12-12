@@ -22,8 +22,11 @@
 <fullyQualifiedTypeName name="Datum"/>
 <fullyQualifiedTypeName name="Student"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="Animal"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="Skloniste"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="TemperaturaTest"/>
+<fullyQualifiedTypeName name="Temperatura"/>
 </qualifiedTypeNameHistroy>

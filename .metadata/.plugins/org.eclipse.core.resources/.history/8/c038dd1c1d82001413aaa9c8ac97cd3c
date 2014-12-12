@@ -1,0 +1,93 @@
+public class Igracka {
+
+	private String igracka;
+	private String tip;
+	private double cijena;
+	private int godinaProiz;
+	private int dobOgranicenje;
+
+	
+	public String toString() {
+		String povratString = "";
+		povratString = "Igracka: " + igracka +"\n Tip: " + tip+  "\nGodina prozivdonje: " +  godinaProiz + 
+				"\nDobno ogranicenje: " + dobOgranicenje + "\n"+ "\nCijena: "+  cijena+ "\n"				;
+		return povratString;
+	}
+
+	public Igracka() {
+		igracka = "unknown";
+		godinaProiz = 2014;
+		dobOgranicenje = 0;
+
+	}
+
+	public Igracka(String igracka,String tip, double cijena ) {
+		this.igracka = igracka;
+		this.tip=tip;
+	this.cijena=cijena;	
+	}
+
+	public Igracka(String igracka,String tip,double cijena, int godinaProiz, int dobOgranicenje) {
+		this.igracka=igracka;
+		this.tip=tip;
+		this.cijena=cijena;
+		this.godinaProiz=godinaProiz;
+		this.dobOgranicenje=dobOgranicenje;
+	}
+
+	public Igracka(String igracka,String tip,double cijena,int broj) {
+		this.igracka=igracka;
+		this.tip=tip;
+		this.cijena=cijena;
+		if(broj>1000){
+			this.godinaProiz=broj;
+		}
+		if (broj<100){
+		this.dobOgranicenje=broj;}
+		else
+	{this.dobOgranicenje=0;}
+	}
+
+	
+	
+	public String getIgracka() {
+		return igracka;
+	}
+
+	public void setIgracka(String igracka) {
+		this.igracka = igracka;
+	}
+
+	public String getTip() {
+		return tip;
+	}
+
+	public void setTip(String tip) {
+		this.tip = tip;
+	}
+
+	public double getCijena() {
+		return cijena;
+	}
+
+	public void setCijena(double cijena) {
+		this.cijena = cijena;
+	}
+
+	public int getGodinaProiz() {
+		return godinaProiz;
+	}
+
+	public void setGodinaProiz(int godinaProiz) {
+		this.godinaProiz = godinaProiz;
+	}
+
+	public int getDobOgranicenje() {
+		return dobOgranicenje;
+	}
+
+	public void setDobOgranicenje(int dobOgranicenje) {
+		this.dobOgranicenje = dobOgranicenje;
+	}
+
+}

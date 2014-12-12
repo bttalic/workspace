@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class TemperaturaTest {
+ public static void main(String[] args) {
+	Scanner in= new Scanner (System.in);
+	
+	
+	
+	
+	
+	System.out.println("Unesite slovo vrijdnosti koju unosite: C za celzijuse, K za kelvine, F za farenheit " );
+	String oznakaTemperature=in.nextLine();
+	while(oznakaTemperature!="C" || oznakaTemperature!="K"  ||oznakaTemperature!="F"){
+	System.out.println("Unesite slovo vrijdnosti koju unosite: C za celzijuse, K za kelvine, F za farenheit " );
+	oznakaTemperature=in.nextLine();
+	}
+ 
+	System.out.println("Unesite vrijednost: ");
+	int temperatura=in.nextInt();
+	
+
+	System.out.println("Unesite slovo vrijdnosti koju zelite da dobijete: C za celzijuse, K za kelvine, F za farenheit " );
+	String povratOznakaTemperature=in.nextLine();
+	while(oznakaTemperature!="C" || oznakaTemperature!="K"  ||oznakaTemperature!="F"){
+		povratOznakaTemperature=in.nextLine();
+	}
+	
+}
+}
