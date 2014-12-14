@@ -2,7 +2,7 @@ public class Knjiga {
 	private String nazivKnjige;
 	private double cijenaKnjige;
 	private int stanje;
-  //  public Autor autor;
+  	public Autor autor;
 	
 	
 	public Knjiga(){
@@ -15,8 +15,11 @@ public class Knjiga {
 		this.nazivKnjige=nazivKnjige;
 		this.cijenaKnjige=cijenaknjige;
 		this.stanje=stanje;
-		Autor.setImeAutora(nekiLik)
-	//	Autor autor = new Autor (nekiLik);
+		this.autor = new Autor(nekiLik);
+		/* ili ako bas hoces setter
+		this.autor = new Autor();
+		this.autor.setImeAutora(nekiLik);
+		*/
 		}
 	
 	
