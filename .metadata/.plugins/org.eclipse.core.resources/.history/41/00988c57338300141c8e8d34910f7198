@@ -1,0 +1,56 @@
+public class Knjiga {
+	private String nazivKnjige;
+	private double cijenaKnjige;
+	private int stanje;
+    public Autor autor;
+	
+	
+	public Knjiga(){
+		this.nazivKnjige="NN";
+		this.cijenaKnjige=0.00;
+		this.stanje=0;
+		}
+	
+	public Knjiga(String nazivKnjige, double cijenaknjige, int stanje , String nekiLik ){
+		this.nazivKnjige=nazivKnjige;
+		this.cijenaKnjige=cijenaknjige;
+		this.stanje=stanje;
+		this.autor = new Autor (nekiLik);
+		}
+	
+	
+	
+	
+	
+	public String toString() {
+		String printOut = "";
+		printOut = "Naziv knjige: " + nazivKnjige + ", Cijena knjige: "
+				+ cijenaKnjige + ", Na lageru" + stanje;
+		return printOut;
+	}
+
+	public String getNazivKnjige() {
+		return nazivKnjige;
+	}
+
+	public void setNazivKnjige(String nazivKnjige) {
+		this.nazivKnjige = nazivKnjige;
+	}
+
+	public double getCijenaKnjige() {
+		return cijenaKnjige;
+	}
+
+	public void setCijenaKnjige(double cijenaKnjige) {
+		this.cijenaKnjige = cijenaKnjige;
+	}
+
+	public int getStanje() {
+		return stanje;
+	}
+
+	public void setStanje(int stanje) {
+		this.stanje = stanje;
+	}
+
+}
